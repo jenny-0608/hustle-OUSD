@@ -1,0 +1,32 @@
+
+
+
+Start
+
+
+1. Alarm Should go off at:
+4:00 PM
+June 25th
+
+If timestamp is equal to Alarm
+    Alarm goes off
+    ask user if they want to snooze
+
+    if yes:
+        add 5 minutes to Alarm
+        check timestamp and if it is equal to Alarm
+
+            if yes:
+                sound Alarm
+
+            else: 
+                dont sound Alarm
+
+    else:
+        turn Alarm off
+
+else:
+    dont sound Alarm
+
+
+End
